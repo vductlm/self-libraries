@@ -1,1 +1,3 @@
 rootProject.name = 'sefl-libraries'
+
+include 'lib-starter'
