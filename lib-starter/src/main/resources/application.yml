@@ -1,0 +1,17 @@
+#spring:
+#  application:
+#    name: dev.ductlm.starter
+#
+#  jpa:
+#    properties:
+#      hibernate:
+#        connection:
+#          driver_class: org.postgresql.Driver
+#    hibernate:
+#      ddl-auto: update
+#    database: postgresql
+#  datasource:
+#    url: jdbc:postgresql://localhost:5545/postgres
+#    username: postgres
+#    password: sumo6842
+#
