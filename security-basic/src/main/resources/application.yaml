@@ -7,10 +7,10 @@ spring:
         connection:
           driver_class: org.postgresql.Driver
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
     database: postgresql
   datasource:
-    url: jdbc:postgresql://localhost:5545/postgres
-    username: postgres
-    password: sumo6842
+    url: jdbc:postgresql://localhost:5433/postgres
+    username: app
+    password: changeme
 
